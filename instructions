@@ -1,0 +1,43 @@
+Problem: Movie Recommendation App
+
+You are tasked with building a movie recommendation app that allows users to
+ discover movies based on their preferences and ratings. The app should provide
+  a list of movies, allow users to rate movies, and recommend new movies based
+   on their ratings.
+
+Requirements:
+
+    Display a list of movies: Fetch a list of movies from an API endpoint (you can
+     use mock data or create a simple JSON file) and display them in a visually
+     appealing way. Each movie should have fields like title, description, genre,
+      and average rating.
+
+    User authentication: Implement a user authentication system where users can sign up,
+     sign in, and sign out. Use any authentication method you are comfortable with
+      (e.g., email/password, OAuth).
+
+    Movie ratings: Allow authenticated users to rate movies on a scale of 1 to 5 stars.
+     Users should be able to rate a movie only once and update their rating if desired.
+      Display the average rating for each movie based on user ratings.
+
+    Personalized movie recommendations: Based on a user's ratings, provide personalized
+    movie recommendations. Recommend movies that have high average ratings from users with
+     similar preferences.
+
+    Search and filtering: Implement a search functionality that allows users to search for
+    movies by title, genre, or any other relevant criteria. Additionally, provide filtering
+    options to sort movies by rating or genre.
+
+    Responsive Design: Ensure the app is responsive and works well on different screen sizes.
+
+You are expected to write the frontend code using React and any necessary components, state
+ management (e.g., useState, useReducer), and other techniques you deem appropriate. The focus
+  of this problem is on the complexity of the domain and implementing advanced features
+   like user authentication and personalized recommendations.
+
+It's recommended to structure your code in a modular and reusable manner, following best
+practices for React development. Feel free to style the app using CSS or a UI library of your choice.
+
+During the interview, you will be evaluated based on the quality of your code, your ability
+ to architect and implement the required functionality, and your attention to detail.
+ Be prepared to explain your code decisions and walk through your implementation.
